@@ -7,12 +7,14 @@
 //
 
 #import "ViewController.h"
+#import "HomeViewController.h"
 
 @interface ViewController ()
 
 @end
 
 @implementation ViewController
+@synthesize userName,password;
 
 - (void)viewDidLoad
 {
@@ -20,10 +22,46 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
-- (void)didReceiveMemoryWarning
+#pragma mark - TextFiel Methods
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    if(textField==userName)
+    {
+        [password becomeFirstResponder];
+    }
+    else if(textField==password)
+    {
+        if([userName.text isEqualToString:@"test"]&&[password.text isEqualToString:@"test"])
+        {
+            [password resignFirstResponder];
+            HomeViewController *homeInstance = [self.storyboard instantiateViewControllerWithIdentifier:@"HomeView"];
+            [self presentViewController:homeInstance animated:YES completion:nil];
+        }
+        else
+        {
+            UIAlertView *alert=[[UIAlertView alloc]initWithTitle:@"Incorrect user or password" message:@"Try again" delegate:self cancelButtonTitle:@"Ok" otherButtonTitles:nil, nil];
+            
+               [alert show];
+        }
+    }
+    
+    return YES;
 }
 
+#pragma mark - TouchesBegan Methods
+
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event
+{
+    UITouch *touch = [[event allTouches]anyObject];
+    if([password isFirstResponder]&&[touch view]!=password)
+    {
+        [password resignFirstResponder];
+    }
+    else if([userName isFirstResponder]&&[touch view]!=userName)
+    {
+        [userName resignFirstResponder];
+    }
+    
+}
 @end

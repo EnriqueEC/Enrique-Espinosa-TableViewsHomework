@@ -18,6 +18,16 @@
 		DA03459816F5700B005AE771 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DA03459716F5700B005AE771 /* Default-568h@2x.png */; };
 		DA03459B16F5700B005AE771 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA03459916F5700B005AE771 /* MainStoryboard.storyboard */; };
 		DA03459E16F5700B005AE771 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA03459D16F5700B005AE771 /* ViewController.m */; };
+		DA0345A916F57E9A005AE771 /* magumbo2.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0345A816F57E9A005AE771 /* magumbo2.png */; };
+		DA0345AE16F59185005AE771 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA0345AD16F59185005AE771 /* HomeViewController.m */; };
+		DA531D8716FFFB0A002B05FF /* GroupControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA531D8616FFFB0A002B05FF /* GroupControllerViewController.m */; };
+		DA8AED4616F67EA500644467 /* blackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8AED4516F67EA500644467 /* blackButton.png */; };
+		DA8AED4816F689EE00644467 /* addImage.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8AED4716F689EE00644467 /* addImage.png */; };
+		DA8AED4A16F68BA200644467 /* oficina.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8AED4916F68BA200644467 /* oficina.png */; };
+		DA8AED4C16F68BA800644467 /* school.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8AED4B16F68BA800644467 /* school.png */; };
+		DA8AED4E16F68BC100644467 /* futbol.png in Resources */ = {isa = PBXBuildFile; fileRef = DA8AED4D16F68BC100644467 /* futbol.png */; };
+		DA990C8B16F650AC00316441 /* orangeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DA990C8A16F650AC00316441 /* orangeButton.png */; };
+		DA990C8F16F6522600316441 /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA990C8E16F6522600316441 /* MyCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +47,19 @@
 		DA03459A16F5700B005AE771 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		DA03459C16F5700B005AE771 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DA03459D16F5700B005AE771 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA0345A816F57E9A005AE771 /* magumbo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magumbo2.png; sourceTree = "<group>"; };
+		DA0345AC16F59185005AE771 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		DA0345AD16F59185005AE771 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		DA531D8516FFFB0A002B05FF /* GroupControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupControllerViewController.h; sourceTree = "<group>"; };
+		DA531D8616FFFB0A002B05FF /* GroupControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupControllerViewController.m; sourceTree = "<group>"; };
+		DA8AED4516F67EA500644467 /* blackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButton.png; sourceTree = "<group>"; };
+		DA8AED4716F689EE00644467 /* addImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = addImage.png; path = ../addImage.png; sourceTree = "<group>"; };
+		DA8AED4916F68BA200644467 /* oficina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = oficina.png; path = ../oficina.png; sourceTree = "<group>"; };
+		DA8AED4B16F68BA800644467 /* school.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = school.png; path = ../school.png; sourceTree = "<group>"; };
+		DA8AED4D16F68BC100644467 /* futbol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = futbol.png; path = ../futbol.png; sourceTree = "<group>"; };
+		DA990C8A16F650AC00316441 /* orangeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeButton.png; sourceTree = "<group>"; };
+		DA990C8D16F6522600316441 /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		DA990C8E16F6522600316441 /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +79,7 @@
 		DA03457516F5700B005AE771 = {
 			isa = PBXGroup;
 			children = (
+				DA531D8416FFFAE9002B05FF /* GroupController */,
 				DA03458716F5700B005AE771 /* TableViewsHomework */,
 				DA03458016F5700B005AE771 /* Frameworks */,
 				DA03457F16F5700B005AE771 /* Products */,
@@ -83,11 +107,12 @@
 		DA03458716F5700B005AE771 /* TableViewsHomework */ = {
 			isa = PBXGroup;
 			children = (
+				DA990C8C16F651E600316441 /* MyCell */,
+				DA0345AB16F5915F005AE771 /* HomeController */,
+				DA0345AA16F59149005AE771 /* LoginController */,
 				DA03459016F5700B005AE771 /* AppDelegate.h */,
 				DA03459116F5700B005AE771 /* AppDelegate.m */,
 				DA03459916F5700B005AE771 /* MainStoryboard.storyboard */,
-				DA03459C16F5700B005AE771 /* ViewController.h */,
-				DA03459D16F5700B005AE771 /* ViewController.m */,
 				DA03458816F5700B005AE771 /* Supporting Files */,
 			);
 			path = TableViewsHomework;
@@ -96,6 +121,13 @@
 		DA03458816F5700B005AE771 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DA8AED4B16F68BA800644467 /* school.png */,
+				DA8AED4916F68BA200644467 /* oficina.png */,
+				DA8AED4D16F68BC100644467 /* futbol.png */,
+				DA8AED4716F689EE00644467 /* addImage.png */,
+				DA8AED4516F67EA500644467 /* blackButton.png */,
+				DA990C8A16F650AC00316441 /* orangeButton.png */,
+				DA0345A816F57E9A005AE771 /* magumbo2.png */,
 				DA03458916F5700B005AE771 /* TableViewsHomework-Info.plist */,
 				DA03458A16F5700B005AE771 /* InfoPlist.strings */,
 				DA03458D16F5700B005AE771 /* main.m */,
@@ -105,6 +137,43 @@
 				DA03459716F5700B005AE771 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA0345AA16F59149005AE771 /* LoginController */ = {
+			isa = PBXGroup;
+			children = (
+				DA03459C16F5700B005AE771 /* ViewController.h */,
+				DA03459D16F5700B005AE771 /* ViewController.m */,
+			);
+			name = LoginController;
+			sourceTree = "<group>";
+		};
+		DA0345AB16F5915F005AE771 /* HomeController */ = {
+			isa = PBXGroup;
+			children = (
+				DA0345AC16F59185005AE771 /* HomeViewController.h */,
+				DA0345AD16F59185005AE771 /* HomeViewController.m */,
+			);
+			name = HomeController;
+			sourceTree = "<group>";
+		};
+		DA531D8416FFFAE9002B05FF /* GroupController */ = {
+			isa = PBXGroup;
+			children = (
+				DA531D8516FFFB0A002B05FF /* GroupControllerViewController.h */,
+				DA531D8616FFFB0A002B05FF /* GroupControllerViewController.m */,
+			);
+			name = GroupController;
+			sourceTree = "<group>";
+		};
+		DA990C8C16F651E600316441 /* MyCell */ = {
+			isa = PBXGroup;
+			children = (
+				DA990C8D16F6522600316441 /* MyCell.h */,
+				DA990C8E16F6522600316441 /* MyCell.m */,
+			);
+			name = MyCell;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +232,13 @@
 				DA03459616F5700B005AE771 /* Default@2x.png in Resources */,
 				DA03459816F5700B005AE771 /* Default-568h@2x.png in Resources */,
 				DA03459B16F5700B005AE771 /* MainStoryboard.storyboard in Resources */,
+				DA0345A916F57E9A005AE771 /* magumbo2.png in Resources */,
+				DA990C8B16F650AC00316441 /* orangeButton.png in Resources */,
+				DA8AED4616F67EA500644467 /* blackButton.png in Resources */,
+				DA8AED4816F689EE00644467 /* addImage.png in Resources */,
+				DA8AED4A16F68BA200644467 /* oficina.png in Resources */,
+				DA8AED4C16F68BA800644467 /* school.png in Resources */,
+				DA8AED4E16F68BC100644467 /* futbol.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +252,9 @@
 				DA03458E16F5700B005AE771 /* main.m in Sources */,
 				DA03459216F5700B005AE771 /* AppDelegate.m in Sources */,
 				DA03459E16F5700B005AE771 /* ViewController.m in Sources */,
+				DA0345AE16F59185005AE771 /* HomeViewController.m in Sources */,
+				DA990C8F16F6522600316441 /* MyCell.m in Sources */,
+				DA531D8716FFFB0A002B05FF /* GroupControllerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +377,7 @@
 				DA0345A316F5700B005AE771 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
